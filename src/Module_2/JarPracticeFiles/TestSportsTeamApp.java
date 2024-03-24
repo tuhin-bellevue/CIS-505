@@ -39,9 +39,8 @@ public class TestSportsTeamApp {
             System.out.println("Players on team: " + teamMembers);
             System.out.println("Continue? (y/n):");
             String userDecision = scanner.nextLine();
-            if("y".equalsIgnoreCase(userDecision))
-                continue;
-            else break;
+            if("n".equalsIgnoreCase(userDecision))
+                break;
         }
     }
 }
