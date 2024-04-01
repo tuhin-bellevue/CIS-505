@@ -1,4 +1,8 @@
-package Module_3;
+package Module_3.CustomerAccountApp;
+
+import Module_3.CustomerAccountApp.Account;
+import Module_3.CustomerAccountApp.Customer;
+import Module_3.CustomerAccountApp.CustomerDB;
 
 import java.util.Scanner;
 

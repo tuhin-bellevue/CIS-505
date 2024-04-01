@@ -1,4 +1,4 @@
-package Module_3;
+package Module_3.CustomerAccountApp;
 
 /*
     Daw, Tuhin(2024), CIS-505 Intermediate Java Programming. Bellevue University, all rights reserved.
