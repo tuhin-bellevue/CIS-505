@@ -1,20 +1,24 @@
 package Module_5.ExpenseTracker;
 
-import Module_4.BowlingShopApp.GenericQueue;
-import Module_4.BowlingShopApp.Product;
-import Module_4.BowlingShopApp.ProductDB;
-
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
+
+/*
+    Daw, Tuhin(2024), CIS-505 Intermediate Java Programming. Bellevue University, all rights reserved.
+    ValidatorIO class
+ */
 public class TestExpenseTracker {
 
     public static void main(String[] args) {
         testExpenseTracker();
     }
 
+    /**
+     *
+     * @return menu options for a user to choose from
+     */
     public static String menu(){
         StringBuilder builder = new StringBuilder();
         builder.append("MENU OPTIONS")
@@ -29,6 +33,11 @@ public class TestExpenseTracker {
 
         return builder.toString();
     }
+
+    /**
+     *
+     * Test method to test functionality of TestExpenseTracker application
+     */
 
     public static void testExpenseTracker () {
 

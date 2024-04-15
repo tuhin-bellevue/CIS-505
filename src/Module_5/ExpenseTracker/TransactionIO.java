@@ -8,12 +8,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+
+/*
+    Daw, Tuhin(2024), CIS-505 Intermediate Java Programming. Bellevue University, all rights reserved.
+    TransactionIO class
+ */
 public class TransactionIO {
 
-    private static String FILE_NAME = "“expenses.txt";
+    private static String FILE_NAME = "expenses.txt";
 
     private static File file = new File(FILE_NAME);
 
+    /**
+     *
+     * @param transactions -> Input provided by the user on console that creates a list of transactions
+     */
     public static void bulkInsert(List<Transaction> transactions) throws IOException {
         PrintWriter output = null;
 
@@ -32,6 +41,10 @@ public class TransactionIO {
         output.close();
     }
 
+    /**
+     *
+     * @return the List of Transactions from the text file expenses.txt
+     */
     public static List<Transaction> findAll () throws IOException{
         List<Transaction> transactions = new ArrayList<>();
         Scanner input = new Scanner(file);

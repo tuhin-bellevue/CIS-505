@@ -3,6 +3,10 @@ package Module_5.ExpenseTracker;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/*
+    Daw, Tuhin(2024), CIS-505 Intermediate Java Programming. Bellevue University, all rights reserved.
+    Transaction class
+ */
 public class Transaction {
 
     private String date;
